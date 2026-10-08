@@ -1,0 +1,7 @@
+# clangd 配置：SwiftPM 包未生成 compile_commands.json，
+# 此处补齐 ObjC 编译参数消除诊断面板噪音。
+# 注意：无编译数据库时 clangd 回退命令的工作目录是源文件所在目录，
+# 因此 -I 相对路径必须写在各目标目录的 .clangd 中（见 Sources/*/​.clangd）
+CompileFlags:
+  Add:
+    - -fobjc-arc

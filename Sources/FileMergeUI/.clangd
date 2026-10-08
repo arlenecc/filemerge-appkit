@@ -1,0 +1,6 @@
+# FileMergeUI：自身 include/ + 依赖 FileMergeCore 的 include/
+CompileFlags:
+  Add:
+    - -fobjc-arc
+    - -Iinclude
+    - -I../FileMergeCore/include

@@ -1,0 +1,5 @@
+# FileMergeCore：头文件位于 include/（工作目录=本目录）
+CompileFlags:
+  Add:
+    - -fobjc-arc
+    - -Iinclude

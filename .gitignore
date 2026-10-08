@@ -1,0 +1,9 @@
+# SwiftPM 构建产物
+.build/
+# 应用打包输出
+build/
+# macOS 元数据
+.DS_Store
+# Xcode / IDE 临时文件
+*.xcodeproj/
+*.xcworkspace/
